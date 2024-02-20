@@ -15,16 +15,17 @@ Was wäre ein geeignetes Projekt für diese LP4?
 Ich würde gerne Daten aus einer Google Forms umfrage rausziehen und diese dann auswerten.
 20.2.2024
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich sehr viel über APIs gelernt und verschiedene Ideen ausprobiert werde aber jetzt probieren Daten aus einer Google Forms Umfrage in meinen C#-Code einzufügen. Ich werde vielleicht später auch einen Algorithmus einfügen um die Daten dann auch zu verarbeiten. Im falle das es nicht klappt werde ich ein Programm machen welches einem das Wetter rausgibt. (58 Wörter)
 
 27.2.2024
-[ ] Erstes Arbeitspaket
-[ ] ...
-[ ] Viertes AP
+[ ] SQL M164
+[ ] SQL M164
+[ ] SQL M164
+[ ] Mehr über APIs lernen
 Testfall-Nummer	Ausgangslage (Given)	Eingabe (When)	Ausgabe (Then)	Erfüllt?
 1				
-...				
 4				
+
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen, und in der Spalte Erfüllt? einzutragen, ob Ihr Code die Test-Fälle erfüllt
