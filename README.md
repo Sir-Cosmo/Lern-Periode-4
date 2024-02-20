@@ -23,9 +23,10 @@ Ich würde gerne Daten aus einer Google Forms umfrage rausziehen und diese dann 
 [ ] M164 Aufgabe 4 
 [ ] M164 Aufgabe + Dokumentation für Aufgabe 4
 
-Testfall-Nummer	Ausgangslage (Given)	Eingabe (When)	Ausgabe (Then)	Erfüllt?
-1				
-4				
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| -------------- | -------------------- | -------------- | -------------- | -------- |
+| 1            | Aufgabe 3 abgeschlossen| - | Dokumentation Fertig|          |
+| 2            | Aufgabe 4 Abgeschlossen | - | Dokumentation Fertig | |
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
