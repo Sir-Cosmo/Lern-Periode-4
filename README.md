@@ -17,20 +17,33 @@ Ich würde gerne Daten aus einer Google Forms umfrage rausziehen und diese dann 
 
 ✍️ Heute habe ich sehr viel über APIs gelernt und verschiedene Ideen ausprobiert werde aber jetzt probieren Daten aus einer Google Forms Umfrage in meinen C#-Code einzufügen. Ich werde vielleicht später auch einen Algorithmus einfügen um die Daten dann auch zu verarbeiten. Im falle das es nicht klappt werde ich ein Programm machen welches einem das Wetter rausgibt. (58 Wörter)
 
-27.2.2024
-- [ ] M164 Aufgabe 3
-- [ ] Dokumentation für Aufgabe3
-- [ ] M164 Aufgabe 4 
+### 27.2.2024
+- [X] M164 Aufgabe 3
+- [X] Dokumentation für Aufgabe3
+- [X] M164 Aufgabe 4 
 - [ ] Dokumentation für Aufgabe 4
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
-| 1            | Aufgabe 3 abgeschlossen| - | Dokumentation Fertig|          |
-| 2            | Aufgabe 4 Abgeschlossen | - | Dokumentation Fertig | |
+| 1            | Aufgabe 3 abgeschlossen| - | Dokumentation Fertig|         Ja|
+| 2            | Aufgabe 4 Abgeschlossen | - | Dokumentation Fertig | Ja|
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich sehr viel SQL gemacht :). Ich habe leider nicht ganz alle meiner Arbeitspakte fertig geschafft, da wir nur bis um 11 Schule hatten. Trotzdem habe ich es weit genug geschafft, dass ich alle Aufgaben praktisch fertig habe und morgen nur noch die Dokumentation abschliessen muss. Ich freue mich auch auf das nächste Mal, wo ich mit meinem Projekt anfangen kann. Ich finde, ich war heute sehr effizient und hoffe, dass ich die gleiche Konzentration in den nächsten Stunden aufrechterhalten kann. 
+(82 Wörter)
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen, und in der Spalte Erfüllt? einzutragen, ob Ihr Code die Test-Fälle erfüllt
+### 27.2.2024
+- [ ] Verstehen wie man eine Anfrage an die Google Forms API macht mithilfe von der [Dokumetation](https://developers.google.com/forms/api/reference/rest)
+- [ ] Google Forms API einrichten 
+- [ ] Eine Einfache abfrage an Google Forms API.
+- [ ] Eine Einfache abfrage an Google Forms API(In meinem Code)
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| -------------- | -------------------- | -------------- | -------------- | -------- |
+| 1            | - | [Dokumetation](https://developers.google.com/forms/api/reference/rest) gelesen und verstanden | Verstehen wie man eine Anfrage an die Google Forms API macht |          |
+| 2           | - | API eingerichtet | Zugriff auf Google Forms API | |
+| 3          | Zugriff auf Google Forms API| Abfrage auf Google Forms API | Antwort von Google Forms API | |
+| 4          | Zugriff auf Google Forms API / Programm in VS gestartet. | Abfrage auf Google Forms API mit C# Code | Antwort von Google Forms API | |
+
 
 Reflexion
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
