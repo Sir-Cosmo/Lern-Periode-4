@@ -3,7 +3,7 @@ Tom Aggett
 
 20.2 bis 2.4.2024
 
-Grob-Planung
+##Grob-Planung
 Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
 Bis jetzt war ich in sämtlichen Modulen über einer 5,5 mir ist aber das Modul 117 am Schwierigsten gefallen und ich befürchte das ich nur eine 5 haben werde.
 
