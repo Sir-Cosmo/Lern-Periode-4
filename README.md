@@ -32,18 +32,33 @@ Ich würde gerne Daten aus einer Google Forms umfrage rausziehen und diese dann 
 (82 Wörter)
 
 ### 27.2.2024
-- [ ] Verstehen wie man eine Anfrage an die Google Forms API macht mithilfe von der [Dokumetation](https://developers.google.com/forms/api/reference/rest)
-- [ ] Google Forms API einrichten 
+- [50%] Verstehen wie man eine Anfrage an die Google Forms API macht mithilfe von der [Dokumetation](https://developers.google.com/forms/api/reference/rest)
+- [X] Google Forms API einrichten 
 - [ ] Eine Einfache abfrage an Google Forms API.
 - [ ] Eine Einfache abfrage an Google Forms API(In meinem Code)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
-| 1            | - | [Dokumetation](https://developers.google.com/forms/api/reference/rest) gelesen und verstanden | Verstehen wie man eine Anfrage an die Google Forms API macht |          |
-| 2           | - | API eingerichtet | Zugriff auf Google Forms API | |
+| 1            | - | [Dokumetation](https://developers.google.com/forms/api/reference/rest) gelesen und verstanden | Verstehen wie man eine Anfrage an die Google Forms API macht |   50%       |
+| 2           | - | API eingerichtet | Zugriff auf Google Forms API | Ja |
 | 3          | Zugriff auf Google Forms API| Abfrage auf Google Forms API | Antwort von Google Forms API | |
 | 4          | Zugriff auf Google Forms API / Programm in VS gestartet. | Abfrage auf Google Forms API mit C# Code | Antwort von Google Forms API | |
 
+Heute habe ich leider nicht all das geschafft, was ich wollte, da ich einen sehr langen Zahnarzt hatte. Nachdem ich leider sehr starke Kopfschmerzen hatte. Ich habe trotzdem meine ersten 2 Ziele abgeschlossen und mehr über APIs gelernt bzw. Google Forms gelernt. Ich war sehr froh, dass wir von Zuhause gearbeitet haben, da ich mich besser erholen konnte und somit mehr arbeiten konnte. (63 Wörter)
+
+## 12.03.2024
+
+- [ ] Eine Einfache abfrage an Google Forms API.
+- [ ] Eine Einfache abfrage an Google Forms API(In meinem Code)
+- [ ] Eine Einfache abfrage von einer Google Forms umfrage.
+- [ ] Mehrere Antworten von einem Forms abragen.
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| -------------- | -------------------- | -------------- | -------------- | -------- |
+| 1         | Zugriff auf Google Forms API| Abfrage auf Google Forms API | Antwort von Google Forms API | |
+| 2          | Zugriff auf Google Forms API / Programm in VS gestartet. | Abfrage auf Google Forms API mit C# Code | Antwort von Google Forms API | |
+| 3            | Programm in VS gestartet | Abfrage von einer Antwort aus Google Forms | Antwort aus Google Forms |      |
+| 4           | Programm in VS gestartet | Mehere Abfrage von einer Antwort aus Google Forms | Mehrer Antworten aus Google Forms |  |      
 
 Reflexion
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
