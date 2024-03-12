@@ -64,9 +64,9 @@ Heute war ich sehr produktiv, habe aber immer noch sehr viele Probleme mit Googl
 
 ## 19.03.2024
 
-- [] Mehrere Antworten von [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) abragen.
+- [ ] Mehrere Antworten von [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) abragen.
 - [ ] Dokumentation von [worldtimeapi.org](https://worldtimeapi.org/schema) durchlesen und verstehen
-- [] Einfache abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
+- [ ] Einfache abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
 - [ ] Mehere abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
