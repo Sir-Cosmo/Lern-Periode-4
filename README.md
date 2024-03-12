@@ -62,5 +62,19 @@ Heute habe ich leider nicht all das geschafft, was ich wollte, da ich einen sehr
 
 Heute war ich sehr produktiv, habe aber immer noch sehr viele Probleme mit Google Forms gehabt, weswegen ich mich entschieden habe, erstmal mit [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) zu Arbeiten, damit ich mehr Basis wissen über APIs erlangen kann, bevor ich mich an die Grossen dran wage. Ich war auch sehr froh, dass wir DSL hatten, da ich das ganze Wochenende Samariterkurse hatte und somit sehr im Schlafvollzug war. (70 Worte)
 
+## 19.03.2024
+
+- [] Mehrere Antworten von [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) abragen.
+- [ ] Dokumentation von [worldtimeapi.org](https://worldtimeapi.org/schema) durchlesen und verstehen
+- [] Einfache abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
+- [ ] Mehere abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| -------------- | -------------------- | -------------- | -------------- | -------- |
+| 1      | Programm in VS gestartet. | Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) mit C# Code | Mehere Antworten |  |
+| 2      |  [worldtimeapi.org](https://worldtimeapi.org/schema) Offen | Dokumentation gelesen | Dokumentation verstanden | |
+| 3      | Programm in VS gestartet | Abfrage an [worldtimeapi.org](https://worldtimeapi.org/)  | Antwort von [worldtimeapi.org](https://worldtimeapi.org/) |      |
+| 4      | Programm in VS gestartet | Mehere Abfrage an [worldtimeapi.org](https://worldtimeapi.org/) | Mehrer Antworten von [worldtimeapi.org](https://worldtimeapi.org/) |  |      
+
 Reflexion
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
