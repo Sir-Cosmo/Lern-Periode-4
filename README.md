@@ -48,17 +48,19 @@ Heute habe ich leider nicht all das geschafft, was ich wollte, da ich einen sehr
 
 ## 12.03.2024
 
-- [ ] Eine Einfache abfrage an Google Forms API.
-- [ ] Eine Einfache abfrage an Google Forms API(In meinem Code)
-- [ ] Eine Einfache abfrage von einer Google Forms umfrage.
+- [X] Eine Einfache abfrage an Google Forms API.(Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com))
+- [X] Eine Einfache abfrage an Google Forms API(In meinem Code)(Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com))
+- [X] Eine Einfache abfrage von einer Google Forms umfrage.(Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com))
 - [ ] Mehrere Antworten von einem Forms abragen.
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
-| 1         | Zugriff auf Google Forms API| Abfrage auf Google Forms API | Antwort von Google Forms API | |
-| 2          | Zugriff auf Google Forms API / Programm in VS gestartet. | Abfrage auf Google Forms API mit C# Code | Antwort von Google Forms API | |
-| 3            | Programm in VS gestartet | Abfrage von einer Antwort aus Google Forms | Antwort aus Google Forms |      |
+| 1         | Zugriff auf Google Forms API| Abfrage auf Google Forms API | Antwort von Google Forms API | (Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com))|
+| 2          | Zugriff auf Google Forms API / Programm in VS gestartet. | Abfrage auf Google Forms API mit C# Code | Antwort von Google Forms API | (Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com)) |
+| 3            | Programm in VS gestartet | Abfrage von einer Antwort aus Google Forms | Antwort aus Google Forms |   (Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com))   |
 | 4           | Programm in VS gestartet | Mehere Abfrage von einer Antwort aus Google Forms | Mehrer Antworten aus Google Forms |  |      
+
+Heute war ich sehr produktiv, habe aber immer noch sehr viele Probleme mit Google Forms gehabt, weswegen ich mich entschieden habe, erstmal mit [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) zu Arbeiten, damit ich mehr Basis wissen über APIs erlangen kann, bevor ich mich an die Grossen dran wage. Ich war auch sehr froh, dass wir DSL hatten, da ich das ganze Wochenende Samariterkurse hatte und somit sehr im Schlafvollzug war. (70 Worte)
 
 Reflexion
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
