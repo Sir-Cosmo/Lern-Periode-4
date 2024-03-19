@@ -64,17 +64,34 @@ Heute war ich sehr produktiv, habe aber immer noch sehr viele Probleme mit Googl
 
 ## 19.03.2024
 
-- [ ] Mehrere Antworten von [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) abragen.
-- [ ] Dokumentation von [worldtimeapi.org](https://worldtimeapi.org/schema) durchlesen und verstehen
-- [ ] Einfache abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
-- [ ] Mehere abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
+- [X] Mehrere Antworten von [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) abragen.
+- [X] Dokumentation von [worldtimeapi.org](https://worldtimeapi.org/schema) durchlesen und verstehen
+- [X] Einfache abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
+- [X] Mehere abfrage an [worldtimeapi.org](https://worldtimeapi.org/)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
-| 1      | Programm in VS gestartet. | Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) mit C# Code | Mehere Antworten |  |
-| 2      |  [worldtimeapi.org](https://worldtimeapi.org/schema) Offen | Dokumentation gelesen | Dokumentation verstanden | |
-| 3      | Programm in VS gestartet | Abfrage an [worldtimeapi.org](https://worldtimeapi.org/)  | Antwort von [worldtimeapi.org](https://worldtimeapi.org/) |      |
-| 4      | Programm in VS gestartet | Mehere Abfrage an [worldtimeapi.org](https://worldtimeapi.org/) | Mehrer Antworten von [worldtimeapi.org](https://worldtimeapi.org/) |  |      
+| 1      | Programm in VS gestartet. | Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) mit C# Code | Mehere Antworten | X|
+| 2      |  [worldtimeapi.org](https://worldtimeapi.org/schema) Offen | Dokumentation gelesen | Dokumentation verstanden | X|
+| 3      | Programm in VS gestartet | Abfrage an [worldtimeapi.org](https://worldtimeapi.org/)  | Antwort von [worldtimeapi.org](https://worldtimeapi.org/) |  X   |
+| 4      | Programm in VS gestartet | Mehere Abfrage an [worldtimeapi.org](https://worldtimeapi.org/) | Mehrer Antworten von [worldtimeapi.org](https://worldtimeapi.org/) | 
+X |      
+
+Heute habe ich alle meine Ziele erreicht und bin sehr zufrieden mit meiner Arbeit. Ich habe sehr viel über APIs gelernt und auch JSON womit ich die Antwort von der API formatiert habe. Des Weiteren habe ich viel gelernt, was NuGet Pakete sind und zudem, wie man diese installieren kann. (50 Worte)
+
+## 26.03.2024
+
+- [ ] Zeit + Datum in gleicher Abfrage von [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [ ] Zeit + Datum von Städen in Amerika Abfragen [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [ ] Zeit + Datum von Städen in Afrika Abfragen [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [ ] Zeit + Datum + Wochentag von [worldtimeapi.org](https://worldtimeapi.org/)
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| -------------- | -------------------- | -------------- | -------------- | -------- |
+| 1      | Programm in VS gestartet |Berlin | Es ist (Zeit) Uhr am (Datum) | |
+| 2      | Programm in VS gestartet | New York |  Es ist (Zeit) Uhr am (Datum) |  |
+| 3      | Programm in VS gestartet | Kapstadt |  Es ist (Zeit) Uhr am (Datum) |     |
+| 4      | Programm in VS gestartet | Berlin | Es ist (Zeit) Uhr am (Datum) welcher ein (Wochentag) ist |  |      
 
 Reflexion
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
