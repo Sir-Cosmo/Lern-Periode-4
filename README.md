@@ -74,8 +74,7 @@ Heute war ich sehr produktiv, habe aber immer noch sehr viele Probleme mit Googl
 | 1      | Programm in VS gestartet. | Abfrage an [jsonplaceholder.typicode.com](jsonplaceholder.typicode.com) mit C# Code | Mehere Antworten | X|
 | 2      |  [worldtimeapi.org](https://worldtimeapi.org/schema) Offen | Dokumentation gelesen | Dokumentation verstanden | X|
 | 3      | Programm in VS gestartet | Abfrage an [worldtimeapi.org](https://worldtimeapi.org/)  | Antwort von [worldtimeapi.org](https://worldtimeapi.org/) |  X   |
-| 4      | Programm in VS gestartet | Mehere Abfrage an [worldtimeapi.org](https://worldtimeapi.org/) | Mehrer Antworten von [worldtimeapi.org](https://worldtimeapi.org/) | 
-X |      
+| 4      | Programm in VS gestartet | Mehere Abfrage an [worldtimeapi.org](https://worldtimeapi.org/) | Mehrer Antworten von [worldtimeapi.org](https://worldtimeapi.org/) |X|      
 
 Heute habe ich alle meine Ziele erreicht und bin sehr zufrieden mit meiner Arbeit. Ich habe sehr viel über APIs gelernt und auch JSON womit ich die Antwort von der API formatiert habe. Des Weiteren habe ich viel gelernt, was NuGet Pakete sind und zudem, wie man diese installieren kann. (50 Worte)
 
