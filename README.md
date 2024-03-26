@@ -92,5 +92,22 @@ Heute habe ich alle meine Ziele erreicht und bin sehr zufrieden mit meiner Arbei
 | 3      | Programm in VS gestartet | Kapstadt |  Es ist (Zeit) Uhr am (Datum) |     |
 | 4      | Programm in VS gestartet | Berlin | Es ist (Zeit) Uhr am (Datum) welcher ein (Wochentag) ist |  |      
 
+Leider konnte ich heute nicht an meinem Projekt Arbeiten, da ich zum Zahnarzt musste und zur Infoveranstaltung in der Kanti. (20 Worte)
+
+## 02.04.2024
+
+- [ ] Zeit + Datum in gleicher Abfrage von [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [ ] Zeit + Datum von Städen in Amerika Abfragen [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [ ] Zeit + Datum von Städen in Afrika Abfragen [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [ ] Zeit + Datum + Wochentag von [worldtimeapi.org](https://worldtimeapi.org/)
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| -------------- | -------------------- | -------------- | -------------- | -------- |
+| 1      | Programm in VS gestartet |Berlin | Es ist (Zeit) Uhr am (Datum) | |
+| 2      | Programm in VS gestartet | New York |  Es ist (Zeit) Uhr am (Datum) |  |
+| 3      | Programm in VS gestartet | Kapstadt |  Es ist (Zeit) Uhr am (Datum) |     |
+| 4      | Programm in VS gestartet | Berlin | Es ist (Zeit) Uhr am (Datum) welcher ein (Wochentag) ist |  |      
+
+
 Reflexion
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
