@@ -1,85 +1,98 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 using System.Net.Http;
-using System.Text.Json;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 class Program
 {
     static async Task Main(string[] args)
     {
-        await MakeRequest();
-        Console.ReadLine();
-    }
+        Console.WriteLine("Bitte wählen Sie Ihre Region:");
+        Console.WriteLine("1. Europe");
+        Console.WriteLine("2. America");
+        Console.WriteLine("3. Africa");
 
-    static async Task MakeRequest()
-    {
-        char runCode;
-
-        do
+        int regionChoice;
+        while (true)
         {
-            string city = GetCity();
-
-            string apiUrl = $"http://worldtimeapi.org/api/timezone/Europe/{city}";
-
-            using (HttpClient client = new HttpClient())
+            if (int.TryParse(Console.ReadLine(), out regionChoice) && regionChoice >= 1 && regionChoice <= 3)
             {
-                try
-                {
-                    HttpResponseMessage response = await client.GetAsync(apiUrl);
-
-                    if (response.IsSuccessStatusCode)
-                    {
-                        string responseBody = await response.Content.ReadAsStringAsync();
-
-                        
-                        var options = new JsonSerializerOptions
-                        {
-                            PropertyNameCaseInsensitive = true
-                        };
-                        WorldTimeApiResponse apiResponse = JsonSerializer.Deserialize<WorldTimeApiResponse>(responseBody, options);
-
-                        if (apiResponse != null)
-                        {
-                            
-                            string time = apiResponse.Datetime.Substring(11, 8);
-
-                            Console.WriteLine($"Current Time in {apiResponse.Timezone}: {time}");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Unable to parse API response.");
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Request failed. Status Code: {response.StatusCode}");
-                    }
-                }
-                catch (HttpRequestException e)
-                {
-                    Console.WriteLine($"Error making request: {e.Message}");
-                }
-                catch (JsonException e)
-                {
-                    Console.WriteLine($"Error parsing JSON response: {e.Message}");
-                }
+                break;
             }
+            Console.WriteLine("Ungültige Eingabe. Bitte geben Sie eine Zahl zwischen 1 und 3 ein.");
+        }
 
-            Console.WriteLine("Do you want to make another request? [y/n]");
-            runCode = Convert.ToChar(Console.ReadLine());
-        } while (runCode == 'y');
+        string region = "";
+        switch (regionChoice)
+        {
+            case 1:
+                region = "Europe";
+                break;
+            case 2:
+                region = "America";
+                break;
+            case 3:
+                region = "Africa";
+                break;
+            default:
+                break;
+        }
+
+        Console.Write($"Bitte geben Sie Ihre Stadt in {region} ein (auf Englisch) :  ");
+        string state = Console.ReadLine();
+
+        string timezone = $"{region}/{state}";
+
+        using (HttpClient client = new HttpClient())
+        {
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync($"http://worldtimeapi.org/api/timezone/{timezone}");
+                response.EnsureSuccessStatusCode(); 
+
+                string responseBody = await response.Content.ReadAsStringAsync();
+                WorldTimeApiResponse result = JsonConvert.DeserializeObject<WorldTimeApiResponse>(responseBody);
+
+                
+                DateTime dateTime = DateTime.Parse(result.datetime);
+
+                
+                string output = $"Es ist {dateTime.ToString("HH:mm")} Uhr am {dateTime.ToString("dd.MM.yyyy")}, welcher ein {GetGermanDayOfWeek(dateTime.DayOfWeek)} ist.";
+                Console.WriteLine(output);
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Fehler beim Abrufen der Zeit: {e.Message}");
+            }
+        }
     }
 
-    static string GetCity()
+    static string GetGermanDayOfWeek(DayOfWeek dayOfWeek)
     {
-        Console.WriteLine("Please enter the city (e.g., Berlin, London, Paris):");
-        string city = Console.ReadLine().Trim().Replace(" ", "_"); 
-        return city;
+        switch (dayOfWeek)
+        {
+            case DayOfWeek.Monday:
+                return "Montag";
+            case DayOfWeek.Tuesday:
+                return "Dienstag";
+            case DayOfWeek.Wednesday:
+                return "Mittwoch";
+            case DayOfWeek.Thursday:
+                return "Donnerstag";
+            case DayOfWeek.Friday:
+                return "Freitag";
+            case DayOfWeek.Saturday:
+                return "Samstag";
+            case DayOfWeek.Sunday:
+                return "Sonntag";
+            default:
+                return "";
+        }
     }
+}
 
-    public class WorldTimeApiResponse
-    {
-        public string Datetime { get; set; }
-        public string Timezone { get; set; }
-    }
+public class WorldTimeApiResponse
+{
+    public string datetime { get; set; }
 }
