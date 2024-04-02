@@ -96,18 +96,18 @@ Leider konnte ich heute nicht an meinem Projekt Arbeiten, da ich zum Zahnarzt mu
 
 ## 02.04.2024
 
-- [ ] Zeit + Datum in gleicher Abfrage von [worldtimeapi.org](https://worldtimeapi.org/schema)
-- [ ] Zeit + Datum von Städen in Amerika Abfragen [worldtimeapi.org](https://worldtimeapi.org/schema)
-- [ ] Zeit + Datum von Städen in Afrika Abfragen [worldtimeapi.org](https://worldtimeapi.org/schema)
-- [ ] Zeit + Datum + Wochentag von [worldtimeapi.org](https://worldtimeapi.org/)
+- [X] Zeit + Datum in gleicher Abfrage von [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [X] Zeit + Datum von Städen in Amerika Abfragen [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [X] Zeit + Datum von Städen in Afrika Abfragen [worldtimeapi.org](https://worldtimeapi.org/schema)
+- [X] Zeit + Datum + Wochentag von [worldtimeapi.org](https://worldtimeapi.org/)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
-| 1      | Programm in VS gestartet |Berlin | Es ist (Zeit) Uhr am (Datum) | |
-| 2      | Programm in VS gestartet | New York |  Es ist (Zeit) Uhr am (Datum) |  |
-| 3      | Programm in VS gestartet | Kapstadt |  Es ist (Zeit) Uhr am (Datum) |     |
-| 4      | Programm in VS gestartet | Berlin | Es ist (Zeit) Uhr am (Datum) welcher ein (Wochentag) ist |  |      
+| 1      | Programm in VS gestartet |Berlin | Es ist (Zeit) Uhr am (Datum) | Ja |
+| 2      | Programm in VS gestartet | New York |  Es ist (Zeit) Uhr am (Datum) | Ja |
+| 3      | Programm in VS gestartet | Kapstadt |  Es ist (Zeit) Uhr am (Datum) |  Ja |
+| 4      | Programm in VS gestartet | Berlin | Es ist (Zeit) Uhr am (Datum) welcher ein (Wochentag) ist | Ja |      
 
 
 Reflexion
-Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
+Ich habe sehr viel über APIs gelernt, diese LP und auch mega spannende Abfragen gemacht. Des Weiteren habe ich auch viel über NuGet Pakete gelernt und gemerkt, wie praktisch diese sein können beim Programmieren. Ich habe meinen grössten Fortschritt gemacht gegen Ende der LP, da ich dort von Zuhause arbeiten konnte und ich auch deutlich mehr verstanden hatte als am Anfang. Ich würde zusammenfassend sagen, dass diese LP mir sehr viel Spass gemacht hat und ich mich auf die nächste freue. Vielleicht könnte ich etwas mit einer GUI machen, da das natürlich der Weg ist, schöne Programme zu machen. Danke! (100 Worte)
